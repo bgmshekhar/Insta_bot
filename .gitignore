@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+.env
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files and logs
+telegram_bot/downloads/
+telegram_bot/sessions/
+telegram_bot/bot_data.db
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+test_download_dir/
+*.bak
+*.b64

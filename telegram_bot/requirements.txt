@@ -1,0 +1,7 @@
+python-telegram-bot
+instaloader
+python-dotenv
+yt-dlp
+fastapi
+uvicorn
+aiosqlite
