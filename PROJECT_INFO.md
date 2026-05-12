@@ -68,7 +68,6 @@ Insta_bot/
 │   ├── requirements.txt      # Python dependencies
 │   └── downloads/            # Temporary directory for large files
 │
-├── deploy.ps1                # Windows to Termux deployment script
 ├── manage-instabot.sh        # Termux lifecycle manager (tmux)
 ├── .env                      # Environment variables (Tokens, IDs)
 └── PROJECT_INFO.md           # This documentation file
