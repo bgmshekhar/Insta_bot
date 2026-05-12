@@ -11,6 +11,35 @@ It intelligently handles large files by estimating their sizes in real-time and 
 
 ---
 
+## ⚡ Quick Start (Installation)
+
+We provide a universal setup script that automatically checks your Python version, installs requirements, sets up a virtual environment, and configures your Telegram Bot Token across **Windows (Git Bash/WSL), Linux, macOS, and Termux**.
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/bgmshekhar/Insta_bot.git
+   cd Insta_bot
+   ```
+
+2. **Run the setup script:**
+   ```bash
+   bash setup.sh
+   ```
+
+3. **Start the bot:**
+   ```bash
+   # On Linux/macOS/Termux
+   source venv/bin/activate
+   python telegram_bot/bot.py
+
+   # On Windows
+   source venv/Scripts/activate
+   python telegram_bot/bot.py
+   ```
+   *Note: `yt-dlp` requires `ffmpeg` installed on your system to download high-quality videos.*
+
+---
+
 ## 🏗️ Architecture
 
 - **Bot Framework**: `python-telegram-bot` (v20+) running asynchronously.
