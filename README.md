@@ -63,7 +63,6 @@ The bot features a highly secure SQLite authentication system. A root `ADMIN_ID`
 
 The project uses a custom deployment pipeline designed for seamless updates from a Windows PC to the Android Termux server.
 
-- **`deploy.ps1` (Windows)**: Pushes the local Python files and `.env` over SSH to the Termux device, updates pip dependencies, runs database migrations, and cleanly restarts the bot and the Cloudflare tunnel.
 - **`manage-instabot.sh` (Termux)**: A shell script that manages the bot's lifecycle. It ensures the bot runs persistently inside a `tmux` session named `insta_bot`.
   - Usage: `./manage-instabot.sh [start|stop|restart|status|logs]`
 
